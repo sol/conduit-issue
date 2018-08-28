@@ -1,0 +1,13 @@
+name: reader
+
+ghc-options: -rtsopts -Wall
+
+dependencies:
+  - base
+  - extra
+  - mtl
+  - conduit
+
+executable:
+  source-dirs: src
+  main: Main.hs
